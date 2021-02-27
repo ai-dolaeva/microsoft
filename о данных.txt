@@ -1,0 +1,33 @@
+Данные были получены с сайтов:
+https://www.quandl.com/data/AAII/AAII_SENTIMENT-AAII-Investor-Sentiment-Data
+https://data.sca.isr.umich.edu/data-archive/mine.php
+https://data.oecd.org/leadind/business-confidence-index-bci.htm#indicator-chart
+https://ycharts.com/dashboard/
+
+По P/E удалось добыть дынные за период (почти за каждый день):
+30.06.1990 - 31.12.2020 
+остальные данные подстаивались под P/E.
+Всего 7687 записей
+
+общие для любой компании:
+
+non-fundamentals:
+CCI - Consumer confidence index  (University of Michigan Consumer Sentiment Index) URL: https://data.sca.isr.umich.edu/data-archive/mine.php
+BCI - Business confidence index  (National Bank?) URL: https://data.oecd.org/leadind/business-confidence-index-bci.htm#indicator-chart
+AII - American Association of Individual Investors (значения барались как соотношение: Bull / Bear Ratio) URL: https://www.quandl.com/data/AAII/AAII_SENTIMENT-AAII-Investor-Sentiment-Data
+
+fundamentals:
+IR - Interest rate (1 Year Treasury Rate, %) URL: https://ycharts.com/indicators/1_year_treasury_rate
+USIPI - US Industrial Production Index URL: https://ycharts.com/indicators/industrial_production_index
+
+Отдельно для каждой комании (fundamentals:):
+для Microsoft
+PE - Price/Earnings URL: https://ycharts.com/companies/MSFT/pe_ratio  описание: https://ycharts.com/glossary/terms/pe_ratio
+MC - Market Capitalization (или Size) URL: https://ycharts.com/companies/MSFT/market_cap описание: https://ycharts.com/glossary/terms/market_cap
+SGR - Sustainable Growth Rate (Annual) Data, %)(или Earnings growth) URL: https://ycharts.com/companies/MSFT/sustainable_growth_rate_annual описание: https://ycharts.com/glossary/terms/sustainable_growth_rate
+FL - Financial Leverage (Annual) URL: https://ycharts.com/companies/MSFT/financial_leverage_annual описание: https://ycharts.com/glossary/terms/financial_leverage
+DPR - Dividends Payout Ratio (TTM) (или Payout Ratio) URL: https://ycharts.com/companies/MSFT/payout_ratio описание: https://ycharts.com/glossary/terms/payout_ratio
+TR - Turnover Ratio (или Asset Utilization (TTM)) URL: https://ycharts.com/companies/MSFT/asset_utilization описание: https://ycharts.com/glossary/terms/asset_utilization
+DTA - Debt to Assets (Quarterly), %) URL: https://ycharts.com/companies/MSFT/debt_to_assets описание: https://ycharts.com/glossary/terms/debt_to_assets
+MV - 30-Day Rolling Volatility, % URL: https://ycharts.com/companies/MSFT/rolling_vol_30 описание: https://ycharts.com/glossary/terms/rolling_vol_30
+
