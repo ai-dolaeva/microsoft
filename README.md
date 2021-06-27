@@ -1,5 +1,5 @@
-#Лабораторная работа
+# Лабораторная работа
 
-! [Earth] (https://www.sciencealert.com/the-earth-is-moving-substantially-less-because-of-the-global-pandemic)
+![Earth](https://www.sciencealert.com/the-earth-is-moving-substantially-less-because-of-the-global-pandemic)
 
 
